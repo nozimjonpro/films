@@ -11,7 +11,7 @@ function addNewFilm(title, poster, release_date, overview, genres, filmsArr){
     
 var titleInputValue = title.value.trim();
 var posterInputValue = poster.value.trim();
-var dateInputValue = release_date.value.trim();
+var dateInputValue = Number(release_date.value.trim());
 var overviewInputValue = overview.value.trim();
 var genresInputValue = genres.value.trim().split(' ');
 
